@@ -393,7 +393,8 @@ export function adalFetch(
 export function runWithAdal(
     authContext: AuthenticationContext,
     app: () => void,
-    doNotLogin: boolean
+    doNotLogin: boolean,
+    silentAuth: boolean
 ): void;
 
 /**
